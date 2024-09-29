@@ -1,3 +1,12 @@
+# Aplicativo móvel Nutrition
+
+## Introdução
+O aplicativo móvel Nutrition é construído usando Expo e React Native. O aplicativo se comunica com o NutritionApp Backend, que se integra à API Gemini para gerar planos de dieta personalizados para usuários com base em suas preferências e dados de saúde.
+
+# Características
+
+Planos de dieta personalizados : os usuários recebem planos de dieta alimentares pela API Gemini por meio do backend.
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
