@@ -11,6 +11,7 @@ interface HeaderProps{
 export function Header({ step, title }: HeaderProps){
     return(
         <SafeAreaView style={styles.container}>
+            <StatusBar barStyle="dark-content" backgroundColor={colors.white}/>
             <View style={styles.content}>
                 <View style={styles.row}>
                     <Pressable onPress={ () => router.back() }>
